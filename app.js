@@ -3,6 +3,7 @@
 // const myBtn = container.querySelector('button');
 // const input = container.querySelector('input');
 let checkBtn = document.getElementById('check-btn');
+let resetBtn=document.getElementById('restart');
 const random = Math.floor(Math.random() * 10) + 1;
  let chance = 5;
  function guessNumber() {
@@ -36,9 +37,9 @@ const random = Math.floor(Math.random() * 10) + 1;
 }
 
 function reset() {
-    let chance = 0;
-    let curGuess = 0;
+   window.location.reload();
     
 }
 
 checkBtn.onclick = guessNumber;
+resetBtn.onclick = reset;
