@@ -4,10 +4,11 @@
 // const input = container.querySelector('input');
 let checkBtn = document.getElementById('check-btn');
 const random = Math.floor(Math.random() * 10) + 1;
+ let chance = 5;
  function guessNumber() {
     // const container = document.querySelector('.container');
     
-    let chance = 5;
+   
      const numGuess = document.getElementById('num-guess');
     const userGuess = parseInt(document.getElementById('userGuess').value);
  
