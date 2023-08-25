@@ -19,6 +19,9 @@ const random = Math.floor(Math.random() * 10) + 1;
          message.style.color = 'red';
          chance--;
          numGuess.textContent = `Number of Guesses: ${chance}`; 
+      if (chance < 0) {
+             numGuess.textContent = 'You do not have chances.Reset it';
+         }
     
     }
     else if (userGuess < random) {
@@ -26,7 +29,9 @@ const random = Math.floor(Math.random() * 10) + 1;
         message.textContent = 'Too low.Try again';
         chance--;
          numGuess.textContent = `Number of Guesses: ${chance}`;
-
+         if (chance < 0) {
+             numGuess.textContent = 'You do not have chances.Reset it';
+         }
 
     }
      else {
