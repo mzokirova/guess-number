@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Handjet";
+  color: #0f3158;
+  font-size: 72pt;
+}
+
+.container {
+  height: 100vh;
+  text-align: center;
+}
+.container h2 {
+  color: #0f3158;
+}
+.container input::-webkit-outer-spin-button,
+.container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.container input {
+  border: none;
+  background: transparent;
+  width: 500px;
+  height: 400px;
+  font-size: 300pt;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Source Code Pro";
+  background: #080E5C;
+  background: linear-gradient(to bottom, #080E5C 0%, #836CCF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  outline: none;
+}
+.container .input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: none;
+}
+.container #check-btn {
+  border: none;
+  border-radius: 20px;
+  padding: 20px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 23pt;
+  background: rgb(158, 87, 179);
+  background: linear-gradient(45deg, rgb(158, 87, 179) 27%, rgb(24, 97, 125) 100%);
+  transition: 0.3s;
+}
+.container #check-btn:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@400;500;600;700;800;900&family=Source+Code+Pro:wght@700&family=Ysabeau+Infant:wght@900&display=swap" rel="stylesheet">
+    <title>GUESS MY NUMBER</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>guess me if you can</h1>
+    <h2>Guess a number between 1 and 10:</h2>
+    
+    <div class="input-box">
+        <input type="number" id="userGuess" autofocus>
+         <button onclick="guessNumber()" id="check-btn">Check</button>
+    </div>
+    <h1 id="message"></h1>
+    <h3 id="num-guess"></h3>
+    <button onclick="reset()" id="restart" >Restart</button>
+      
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
